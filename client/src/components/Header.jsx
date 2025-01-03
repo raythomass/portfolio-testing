@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return(
-        <header className='border-4 border-rose-600 flex'>
+        <header className=' flex'>
             <section className='header-titles flex flex-col'>
                 <h4>Hello! My name is</h4>
                 <h1>Ray Thomas</h1>
