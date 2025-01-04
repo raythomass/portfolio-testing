@@ -7,6 +7,9 @@
   src: url('./fonts//Hello-Notie.otf');
 }
 
+/* TAILWIND CLASS FOR BORDER */
+/* border-4 border-rose-600 */
+
 :root {
   --salmon: #FF8066;
   --babyblue: #52A3EA;
@@ -148,4 +151,32 @@ header {
   margin-right: 10%;
   font-family: DM Sans;
   color: var(--cream);
+}
+
+.projects-card {
+  height: 100%;
+  width: 32%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.projects-card h3 {
+  text-align: center;
+}
+
+.projects-img-container {
+  height: 40%;
+  width: 100%;
+}
+
+.projects-img {
+  object-fit:cover;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-btn a {
+  background-color: var(--salmon);
+  color: var(--black);
+  font-weight: 600;
+  border-radius: 15px 15px 15px 15px;
 }
