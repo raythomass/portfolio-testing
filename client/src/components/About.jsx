@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return(
-       <h1 id='about' className='about'>
+       <div id='about' className='about'>
         <h1>About</h1>
 
         <div className='about-summary mt-6'>
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className='about-education mt-10'>
             <h3>Education</h3>
-            <div className='about-education-cards flex justify-between mt-2'>
+            <div className='about-education-cards lg:flex lg:justify-between md:flex md:justify-between mt-2'>
                 <div className='education-card'>
                     <p className='education-highlight'>Certificate of Completion</p>
                     <h4>Full-Stack Web Development</h4>
@@ -28,7 +28,7 @@ const About = () => {
                         <li className='mt-2'>Collaborated on projects to understand project management within a development team</li>
                     </ul>
                 </div>
-                <div className='education-card p-2'>
+                <div className='education-card'>
                     <p className='education-highlight'>Bachelor's of Fine Art</p>
                     <h4>Advertising and Graphic Design</h4>
                     <h4>Grand Canyon University</h4>
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-       </h1>
+       </div>
     )
 }
 
